@@ -1,0 +1,8 @@
+extends layout
+
+block content
+
+ form(method="POST" action="/new")
+    input(type='text' placeholder='Author' name='author' )
+    input(type='text' placeholder="Message" name='message')
+    button(type='submit') Submit
